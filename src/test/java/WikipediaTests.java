@@ -12,6 +12,7 @@ import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
 @Owner("Alexey Zakirov")
+@DisplayName("Тесты на мобильное приложение Wikipedia")
 public class WikipediaTests extends TestBase {
     private final MainScreen mainScreen = new MainScreen();
     private final GettingStartedComponent gettingStartedComponent = new GettingStartedComponent();
