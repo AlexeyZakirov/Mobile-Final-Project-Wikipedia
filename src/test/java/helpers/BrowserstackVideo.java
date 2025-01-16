@@ -1,12 +1,11 @@
 package helpers;
 
 import config.AuthWikiConfig;
-import config.BrowserstackConfig;
 import config.ConfigReader;
 
 import static io.restassured.RestAssured.given;
 
-public class Browserstack {
+public class BrowserstackVideo {
     private static final AuthWikiConfig authConfig =
             ConfigReader.INSTANCE.readAuthWikiConfig();
 
